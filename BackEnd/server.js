@@ -33,5 +33,5 @@ app.use('/v1',blogRouter);
 
 
 app.listen(Port,()=>{
-    console.log("Server is Running Fine ");
+    console.log(`Server is Running Fine${Port}`);
 })
